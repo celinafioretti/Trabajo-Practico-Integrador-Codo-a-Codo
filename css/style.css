@@ -1,0 +1,57 @@
+html {
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px , se cambian los tamaños para redondear en los REMS**/
+    box-sizing: border-box;
+}
+*, *:before, *after {
+    box-sizing: inherit;
+}
+
+/** HEADER **/
+.headerContainer {
+    background-color: #353A40;
+    padding: 10px 0;
+}
+.logoYtitulo img {
+    width: 10rem;
+}
+.logoYtitulo h1 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+.filaNav div{
+    margin-top: 15px;
+}
+.filaNav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: #878787;
+}
+#laConferencia {
+    color:#ffffff;
+}
+#comprarTickets {
+    color: #48ae3d;
+}
+
+/** Section **/
+.filaSeccion{
+    height: 85vh;
+    background-image: url(/materialesPracticos/ba1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.letrasBlancas h2, p{
+    color: #ffffff;
+}
+.tituloArgentinaSeccion h2 {
+    font-size: 3rem;
+}
+.bsArgentinaParrafo p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: right;
+}
+.contenidoSection {
+    margin-right: 8rem;
+}
