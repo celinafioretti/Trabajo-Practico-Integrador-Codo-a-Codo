@@ -109,7 +109,55 @@ html {
 .contenidoPlaya {
     background-color: #353A40;
 }
-.contenidoPlaya h3, p, button {
+.contenidoPlaya h3, p{
     color: #ffffff;
-    padding-left: 2rem;
+    margin-left: 20px;
+}
+.contenidoPlaya h3{
+    padding-top: 20px;
+    font-size: 3rem;
+}
+.contenidoPlaya p{
+    font-size: 1.3rem;
+}
+.contenidoPlaya button {
+    margin-left: 20px;
+}
+
+/** Seccion Formulario **/
+.filaFormularioTitulo {
+    height: 500px;
+    background-color: #7b7b7b;
+}
+.tituloConoceOradores p, a {
+    font-size: 1.3rem;
+}
+.tituloConoceOradores p {
+    text-align: center;
+    color: #353A40;
+    padding-bottom: 2rem;
+}
+.tituloConoceOradores a {
+    text-decoration: none;
+    color: #353A40;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+}
+.nombre {
+    width: 45%;
+}
+.apellido {
+    width: 45%;
+}
+.recuerdaIncluir {
+    padding: 10px 0;
+}
+.enviar {
+    border: none;
+    border-radius: 2%;
+    font-size: 2rem;
+    background-color: #96C93E;
+    width: 100%;
+    padding: 5px;
+    color: #ffffff;
 }
