@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px , se cambian los tamaños para redondear en los REMS**/
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 *, *:before, *after {
     box-sizing: inherit;
@@ -13,10 +14,19 @@ html {
 }
 .logoYtitulo img {
     width: 10rem;
+    margin-left: 12.5rem;
 }
 .logoYtitulo h1 {
     font-size: 2rem;
     color: #ffffff;
+}
+@media screen and (max-width: 768px){
+    .logoYtitulo img{
+        width: 150px;
+    }
+    .logoYtitulo h1 {
+        font-size: 3rem;
+    }
 }
 .filaNav div{
     margin-top: 15px;
@@ -49,8 +59,26 @@ html {
 }
 .bsArgentinaParrafo p{
     font-size: 1.7rem;
-    font-weight: 400;
+    font-weight: 500;
     text-align: right;
+}
+@media screen and (max-width: 768px){
+    .filaSeccion {
+        height: 60vh;
+    }
+    .tituloArgentinaSeccion h2 {
+        display: none;
+    }
+    .bsArgentinaParrafo p{
+        padding-bottom: 20px;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .botonesSection div{
+        text-align: center;
+        margin: 10px 0;
+    }
 }
 
 /** Oradores Seccion **/
