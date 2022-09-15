@@ -11,6 +11,7 @@ html {
 .headerContainer {
     background-color: #353A40;
     padding: 10px 0;
+    position: fixed;
 }
 .logoYtitulo img {
     width: 10rem;
