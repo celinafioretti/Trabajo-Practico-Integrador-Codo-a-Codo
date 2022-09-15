@@ -185,8 +185,13 @@ textarea[placeholder="¿Sobre qué quieres hablar?"]{
 /** Footer **/
 .contenedorFooter {
     background-color: #1D4358;
+}
+.filaFooter {
     height: 7rem;
 }
-.columnaNav {
-    background-color: red;
+.columnaNav a{
+    text-decoration: none;
+    color: #C9D3DC;
+    font-weight: 700;
+    padding: 0 15px;
 }
