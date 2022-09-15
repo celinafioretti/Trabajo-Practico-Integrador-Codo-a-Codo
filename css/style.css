@@ -125,17 +125,13 @@ html {
 }
 
 /** Seccion Formulario **/
-.filaFormularioTitulo {
-    height: 500px;
-    background-color: #7b7b7b;
-}
+
 .tituloConoceOradores p, a {
     font-size: 1.3rem;
 }
 .tituloConoceOradores p {
     text-align: center;
     color: #353A40;
-    padding-bottom: 2rem;
 }
 .tituloConoceOradores a {
     text-decoration: none;
@@ -143,21 +139,54 @@ html {
     text-decoration:underline;
     text-decoration-style: dotted;
 }
-.nombre {
-    width: 45%;
+.nombre, .apellido {
+    width: 48%;
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    border: 1px solid #DFDEE2;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
 }
-.apellido {
-    width: 45%;
-}
-.recuerdaIncluir {
-    padding: 10px 0;
+.nombreApellido {
+    display: flex;
+    justify-content: space-between;
 }
 .enviar {
     border: none;
-    border-radius: 2%;
+    border-radius: 5px;
     font-size: 2rem;
     background-color: #96C93E;
     width: 100%;
     padding: 5px;
     color: #ffffff;
+}
+.columnaPrincipalFormTit {
+    width: 50%;
+}
+textarea {
+    width: 100%;
+    height: 8.5rem;
+    border-radius: 5px;
+    border: 1px solid #DFDEE2;
+}
+textarea[placeholder="¿Sobre qué quieres hablar?"]{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #7A7F85;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.tituloConoceOradores h5 {
+    font-size: 1.2rem;
+    color: #7A7F85;
+    padding-bottom: 10px;
+}
+
+/** Footer **/
+.contenedorFooter {
+    background-color: #1D4358;
+    height: 7rem;
+}
+.columnaNav {
+    background-color: red;
 }

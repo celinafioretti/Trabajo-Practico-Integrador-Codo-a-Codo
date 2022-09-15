@@ -126,15 +126,17 @@
     <section>
         <div class="container-fluid contenedorFormulario">
             <div class="row filaFormularioTitulo justify-content-center">
-                <div class="col-auto columnaPrincipalFormTit tituloConoceOradores formularioDetalles"> 
+                <div class="col-6 columnaPrincipalFormTit tituloConoceOradores formularioDetalles"> 
                     <h4>Conviértete en un</h4>
                     <h3>Orador</h3>
                     <p>Anótate como orador para dar una <a href="#">charla ignite</a> . Cuéntanos de qué quieres hablar!</p> 
                     <form action="">
-                        <input class="nombre" type="text" id="nombre" placeholder="Nombre">
-                        <input class="apellido" type="text" id="apellido" placeholder="Apellido">
+                        <div class="nombreApellido">
+                            <input class="nombre" type="text" id="nombre" placeholder="Nombre">
+                            <input class="apellido" type="text" id="apellido" placeholder="Apellido">
+                        </div>
                         <textarea name="Este es el mensaje que leeria un lenguaje de BackEnd" id="mensaje" placeholder="¿Sobre qué quieres hablar?"></textarea>
-                        <h4 class="recuerdaIncluir">Recuerda incluir un título para tu charla</h4>
+                        <h5 class="recuerdaIncluir">Recuerda incluir un título para tu charla</h5>
                         <input class="enviar" type="submit">
                     </form>
                 </div>
@@ -142,7 +144,31 @@
         </div>
     </section> <!--FORMULARIO-->
     <footer>
-        <nav></nav>
+        <div class="container-fluid contenedorFooter">
+            <div class="row filaFooter justify-content-center ">
+                <div class="col-auto columnaNav align-self-center">
+                    <a href="#">Preguntas Frecuentes</a>
+                </div>
+                <div class="col-auto columnaNav align-self-center">
+                    <a href="#">Contáctanos</a>
+                </div>
+                <div class="col-auto columnaNav align-self-center">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-auto columnaNav align-self-center">
+                    <a href="#">Conferencias</a>
+                </div>
+                <div class="col-auto columnaNav align-self-center">
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+                <div class="col-auto columnaNav align-self-center">
+                    <a href="#">Privacidad</a>
+                </div>
+                <div class="col-auto columnaNav align-self-center">
+                    <a href="#">Estudiantes</a>
+                </div>
+            </div>
+        </div>
     </footer> <!--FOOTER NAV-->
     <script src="js/bootstrap.min.js"></script>
 </body>
