@@ -1,227 +1,112 @@
 html {
-    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px , se cambian los tamaños para redondear en los REMS**/
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
-*, *:before, *after {
-    box-sizing: inherit;
+/** MASTER IMAGE **/
+.contenedorMaster {
+    height: 80vh;
 }
-
-/** Header **/
-.headerContainer {
-    background-color: #353A40;
-    padding: 10px 0;
-    position: fixed;
-}
-.logoYtitulo img {
-    width: 10rem;
-    margin-left: 5rem;
-}
-.logoYtitulo h1 {
-    font-size: 2rem;
-    color: #ffffff;
-}
-@media screen and (max-width: 768px){
-    .logoYtitulo img{
-        width: 150px;
-    }
-    .logoYtitulo h1 {
-        font-size: 3rem;
-    }
-}
-.filaNav div{
-    margin-top: 15px;
-}
-.filaNav a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    margin-left: 15px;
-    color: #878787;
-}
-#laConferencia {
-    color:#ffffff;
-}
-#comprarTickets {
-    color: #48ae3d;
-}
-
-/** Section **/
-.filaSeccion{
-    height: 85vh;
-    background-image: url(/materialesPracticos/ba1.jpg);
-    background-position: center center;
+.filaMaster {
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(/materialesPracticos/hawaii.jpg);
+    background-position: center;
     background-size: cover;
 }
-.letrasBlancas h2, p{
-    color: #ffffff;
-}
-.tituloArgentinaSeccion h2 {
-    font-size: 3rem;
-}
-.bsArgentinaParrafo p{
-    font-size: 1.7rem;
-    font-weight: 500;
+.estilosBloqueMaster {
+    color: aliceblue;
     text-align: right;
 }
-@media screen and (max-width: 768px){
-    .filaSeccion {
-        height: 60vh;
+.estilosBloqueMaster p {
+    font-weight: 600;
+}
+.estilosBloqueMaster h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.estilosBloqueMaster button {
+    margin-left: 10px;
+}
+/*? MEDIA QUERIES MASTER IMAGE ?*/
+@media screen and (max-width: 768px) {
+    .estilosBloqueMaster {
+        text-align: center;
     }
-    .tituloArgentinaSeccion h2 {
+    .estilosBloqueMaster h2 {
         display: none;
     }
-    .bsArgentinaParrafo p{
-        padding-bottom: 20px;
-        font-size: 2rem;
+    .estilosBloqueMaster p {
+        margin-top: 20px;
+        font-size: 1.1rem;
         font-weight: 500;
-        text-align: center;
     }
-    .botonesSection div{
-        text-align: center;
-        margin: 10px 0;
+    .estilosBloqueMaster button {
+        margin: 20px;
     }
 }
-.contenidoSection {
-    margin-right: 8rem;
+@media screen and (max-width: 576px) {
+    .contenedorMaster {
+        height: 500px;
+    }
 }
 
-/** Oradores Seccion **/
-.tituloConoceOradores{
-    padding: 10px 0;
-}
-.tituloConoceOradores h4{
+/** MAIN SECTION **/
+ .tituloOradores h3 {
     text-transform: uppercase;
     font-weight: 300;
     text-align: center;
-    font-size: 1.3rem;
-}
-.tituloConoceOradores h3{
+    font-size: .8rem;
+    margin-bottom: 0;
+ }
+ .tituloOradores h2 {
     text-transform: uppercase;
+    font-weight: 300;
     text-align: center;
-    font-size: 2.7rem;
-    font-weight: 500;
-}
-.filaDeOradores{
-    padding: 0 20rem 1rem 20rem;
-}
-.filaImagenesMain img{
-    border-top-left-radius: 3%;
-    border-top-right-radius: 3%;
-    padding: 0;
-}
-.filaDetallesImagenes div{
-    padding-left: 2rem;
-}
-.cajasOradores {
-    border: .3px solid #E8E8E8;
-    border-radius: 3%;
-    margin: 0 15px;
-}
-.columnaDetalles {
-    padding: 20px;
-}
-.columnaDetalles p {
-    color: #5c5b5b;
-}
-.columnaDetalles h3 {
-    margin-bottom: 1rem;
-}
-
-
-/** Seccion Playa **/
-.filaPlaya div {
-    padding: 0;
-    margin: 0;
-}
-.imagenPlaya img {
-    width: 100%;
-}
-.contenidoPlaya {
-    background-color: #353A40;
-}
-.contenidoPlaya h3, p{
-    color: #ffffff;
-    margin-left: 20px;
-}
-.contenidoPlaya h3{
-    padding-top: 20px;
-    font-size: 3rem;
-}
-.contenidoPlaya p{
-    font-size: 1.3rem;
-}
-.contenidoPlaya button {
-    margin-left: 20px;
-}
-
-/** Seccion Formulario **/
-
-.tituloConoceOradores p, a {
-    font-size: 1.3rem;
-}
-.tituloConoceOradores p {
+    font-size: 1.8rem;
+ }
+ .tituloOradores p {
+    font-weight: 300;
     text-align: center;
-    color: #353A40;
-}
-.tituloConoceOradores a {
+    font-size: .8rem;
+ }
+ .tituloOradores a {
     text-decoration: none;
     color: #353A40;
     text-decoration:underline;
     text-decoration-style: dotted;
+ }
+ /* Tarjetas */
+ .card-text {
+    font-size: .73rem;
+ }
+
+ /** BEACH IMAGE **/
+ /*? Media Queries ?*/
+@media screen and (max-width: 992px) {
+    .contenidoBeach h3, p {
+        text-align: center;
+    }
+    .contenidoBeach h3 {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    .contenidoBeach p {
+        font-size: .9rem;
+    }
+    .contenidoBeach button {
+        margin-left: 35%;
+    }
 }
-.nombre, .apellido {
-    width: 48%;
-    margin: 0;
-    padding: 5px 0 5px 5px;
-    border: 1px solid #DFDEE2;
-    border-radius: 5px;
-    margin-bottom: 1.5rem;
-}
-.nombreApellido {
-    display: flex;
-    justify-content: space-between;
-}
-.enviar {
-    border: none;
-    border-radius: 5px;
-    font-size: 2rem;
-    background-color: #96C93E;
-    width: 100%;
-    padding: 5px;
-    color: #ffffff;
-}
-.columnaPrincipalFormTit {
-    width: 50%;
-}
-textarea {
-    width: 100%;
-    height: 8.5rem;
-    border-radius: 5px;
-    border: 1px solid #DFDEE2;
-}
-textarea[placeholder="¿Sobre qué quieres hablar?"]{
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #7A7F85;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-.tituloConoceOradores h5 {
-    font-size: 1.2rem;
-    color: #7A7F85;
-    padding-bottom: 10px;
+@media screen and (max-width: 812px) {
+    .contenidoBeach p {
+        font-size: .78rem;
+    }
 }
 
-/** Footer **/
-.contenedorFooter {
-    background-color: #1D4358;
+ /** FORM **/
+.recuerdaIncluir {
+    font-size: .8rem;
+    color: #6b6b6b;
+    padding-top: 5px;
 }
-.filaFooter {
-    height: 7rem;
-}
-.columnaNav a{
-    text-decoration: none;
-    color: #C9D3DC;
-    font-weight: 700;
-    padding: 0 15px;
+.botonEnviar {
+    
 }
