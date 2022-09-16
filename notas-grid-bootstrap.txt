@@ -1,0 +1,106 @@
+Bootstrap 4.4.4.1
+______________
+📒 Clases CSS Layout
+     📒 Contenedor
+          📝 container
+               Centrar el contenido 
+
+          📝 container-tamaño
+                    Tamaños --> sm, md, lg, xl
+               Centrar el contenido del elemento en un tamño especial. 
+
+          📝 container-fluid
+               Abarcar el 100% del ancho de la pagina en todos los tamaños. 
+     
+     📒 Fila
+          📝 row
+               🔸 row-cols-numero
+               
+               🔸 row-cols-tamaño-numero
+                    sm   Más de 576px y menos de 768px
+                    md   Más de 768px y menos de 992px
+                    lg   Más de 992px y menos de 1200px
+                    xl   Más de 1200px
+
+     📒 Columna
+          📝 col
+               🔸 col
+                    Dividir las 12 columnas en el numero de columnas que hay dentro de un row. 
+               
+               🔸 col-auto
+                    El ancho del elemento es igual a su contenido. 
+
+               🔸 col-numero
+                    El ancho de columna es igual al numero que le pases. 
+
+               🔸 col-tamaño
+                    sm   Más de 576px y menos de 768px
+                    md   Más de 768px y menos de 992px
+                    lg   Más de 992px y menos de 1200px
+                    xl   Más de 1200px
+          
+               🔸 col-tamaño-auto
+
+               🔸 col-tamaño-numero
+     
+          📝 w-100
+     
+     📒 Alineación
+     
+          📝 Sintaxis: 
+             eje-modo-ubicación
+
+          Eje: 
+               main axis --> justify
+               cross axis--> align
+
+          Modo:
+               content --> Grupo 
+               items   --> línea
+               self    --> Individual
+          
+          Ubicación 
+               align: start  --> inicio 
+                      center --> centro
+                      end    --> fin
+
+               justify: start  --> inicio
+                        center --> centro
+                        end    --> final
+                        around --> alrededor
+                        between--> entre
+
+     📒 no-gutters
+
+     📒 Desplazamiento
+          📝 Offset
+               Sintaxis: 
+               offset-tamaño-numero
+
+               tamaño --> Opcional
+               numero --> numero de columnas 
+          
+          📝 Margin
+               Sintaxis:
+               dirección-tamaño-auto
+
+               dirección: dirección del Margin
+                         ml --> Margin left
+                         mr --> Margin right
+               
+               tamaño: Opcional
+                          sm   Más de 576px y menos de 768px
+                          md   Más de 768px y menos de 992px
+                          lg   Más de 992px y menos de 1200px
+                          xl   Más de 1200px
+
+               auto: palabra clave. 
+               
+     📒 Re-ordenamiento.
+          📝 Sintaxis: 
+               order-tamaño-numero 
+
+               tamaño : Opcional
+               numero: de 1 a 12. 
+     
+     📒 Anidación
