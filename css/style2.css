@@ -1,2 +1,19 @@
 
 /** NAVEGACION **/
+.imagenMaster {
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+h1 {
+    font-size: 4rem;
+}
+.colorPantalla {
+    background-color: rgba(0, 0, 0, 0.281);
+}
+@media (max-width: 768px) {
+    .imagenMaster {
+        min-height: 80vh;
+    }
+}
