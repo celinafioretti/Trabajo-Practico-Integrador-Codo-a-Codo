@@ -44,7 +44,7 @@ html {
 }
 @media screen and (max-width: 576px) {
     .contenedorMaster {
-        height: 700px;
+        height: 550px;
     }
 }
 
