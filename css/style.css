@@ -39,12 +39,12 @@ html {
         font-weight: 500;
     }
     .estilosBloqueMaster button {
-        margin: 20px;
+        margin: 10px 20px;
     }
 }
 @media screen and (max-width: 576px) {
     .contenedorMaster {
-        height: 500px;
+        height: 700px;
     }
 }
 
@@ -110,6 +110,11 @@ html {
 .botonEnviar {
     background-color: rgb(150, 201, 62);
     border-color: rgb(150, 201, 62);
+}
+@media screen and (max-width: 576px) {
+    .nombreForm {
+        margin-bottom: 20px;
+    }
 }
 
 /** FOOTER **/
