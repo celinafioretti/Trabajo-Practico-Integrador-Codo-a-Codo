@@ -111,3 +111,13 @@ html {
     background-color: rgb(150, 201, 62);
     border-color: rgb(150, 201, 62);
 }
+
+/** FOOTER **/
+.contenedorFooter {
+    background-color: #1E465F;
+}
+.listaDes {
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+}
