@@ -108,8 +108,8 @@ html {
     padding-top: 5px;
 }
 .botonEnviar {
-    background-color: rgb(166, 223, 69);
-    border-color: rgb(163, 219, 66);
+    background-color: rgb(166, 223, 69) !important;
+    border-color: rgb(163, 219, 66) !important;
 }
 @media screen and (max-width: 576px) {
     .nombreForm {
