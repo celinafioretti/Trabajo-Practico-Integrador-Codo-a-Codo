@@ -73,6 +73,10 @@ html {
     text-decoration:underline;
     text-decoration-style: dotted;
  }
+ #botonReact {
+    background-color: #17A2B7 !important;
+    border-color: #17A2B7 !important;
+ }
  /* Tarjetas */
  .card-text {
     font-size: .73rem;
