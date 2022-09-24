@@ -26,17 +26,23 @@ html {
     margin-left: 10px;
 }
 /*? MEDIA QUERIES MASTER IMAGE ?*/
+@media (max-width: 992px) {
+    .estilosBloqueMaster p {
+        text-align: right;
+    }
+}
 @media screen and (max-width: 768px) {
     .estilosBloqueMaster {
         text-align: center;
     }
     .estilosBloqueMaster h2 {
-        display: none;
+        margin-top: 1rem;
     }
     .estilosBloqueMaster p {
         margin-top: 20px;
         font-size: 1.1rem;
         font-weight: 500;
+        text-align: center;
     }
     .estilosBloqueMaster button {
         margin: 10px 20px;
@@ -44,7 +50,7 @@ html {
 }
 @media screen and (max-width: 576px) {
     .contenedorMaster {
-        height: 550px;
+       height: auto;
     }
 }
 
