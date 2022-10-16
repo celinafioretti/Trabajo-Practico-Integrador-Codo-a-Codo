@@ -13,135 +13,40 @@ html {
 }
 .estilosBloqueMaster {
     color: aliceblue;
-    text-align: right;
-}
-.estilosBloqueMaster p {
-    font-weight: 600;
-}
-.estilosBloqueMaster h2 {
-    font-size: 2rem;
-    font-weight: 500;
-}
-.estilosBloqueMaster button {
-    margin-left: 10px;
 }
 /*? MEDIA QUERIES MASTER IMAGE ?*/
-@media (max-width: 992px) {
-    .estilosBloqueMaster p {
-        text-align: right;
-    }
-}
-@media screen and (max-width: 768px) {
-    .estilosBloqueMaster {
-        text-align: center;
-    }
-    .estilosBloqueMaster h2 {
-        margin-top: 1rem;
-    }
-    .estilosBloqueMaster p {
-        margin-top: 20px;
-        font-size: 1.1rem;
-        font-weight: 500;
-        text-align: center;
-    }
-    .estilosBloqueMaster button {
-        margin: 10px 20px;
-    }
-}
 @media screen and (max-width: 576px) {
     .contenedorMaster {
        height: auto;
     }
 }
-
 /** MAIN SECTION **/
- .tituloOradores h3 {
-    text-transform: uppercase;
-    font-weight: 300;
-    text-align: center;
-    font-size: .8rem;
-    margin-bottom: 0;
- }
- .tituloOradores h2 {
-    text-transform: uppercase;
-    font-weight: 300;
-    text-align: center;
-    font-size: 1.8rem;
- }
- .tituloOradores p {
-    font-weight: 300;
-    text-align: center;
-    font-size: .8rem;
- }
  .tituloOradores a {
-    text-decoration: none;
-    color: #353A40;
-    text-decoration:underline;
-    text-decoration-style: dotted;
+    text-decoration-style: dotted !important;
  }
  #botonReact {
     background-color: #17A2B7 !important;
     border-color: #17A2B7 !important;
  }
- /* Tarjetas */
- .card-text {
-    font-size: .73rem;
- }
-
+ 
  /** BEACH IMAGE **/
  /*? Media Queries ?*/
 @media screen and (max-width: 992px) {
-    .contenidoBeach h3, p {
-        text-align: center;
-    }
-    .contenidoBeach h3 {
-        font-size: 1.1rem;
-        font-weight: 700;
-    }
     .contenidoBeach p {
         font-size: .9rem;
     }
     .contenidoBeach button {
-        margin-left: 35%;
-    }
-}
-@media screen and (max-width: 812px) {
-    .contenidoBeach p {
-        font-size: .78rem;
+        margin-left: 36%;
     }
 }
 
  /** FORM **/
-.recuerdaIncluir {
-    font-size: .8rem;
-    color: #6b6b6b;
-    padding-top: 5px;
-}
 .botonEnviar {
     background-color: rgb(166, 223, 69) !important;
     border-color: rgb(163, 219, 66) !important;
-}
-@media screen and (max-width: 576px) {
-    .nombreForm {
-        margin-bottom: 20px;
-    }
 }
 
 /** FOOTER **/
 .contenedorFooter {
     background-color: #1E465F;
-}
-.listaDes {
-    font-weight: 700;
-    text-align: center;
-    align-items: center;
-}
-@media screen and (max-width: 926px) {
-    .listaDes li {
-        font-weight: 600;
-        text-align: center;
-        align-items: center;
-        font-size: 1rem;
-        padding: 0 10px;
-    }
 }
