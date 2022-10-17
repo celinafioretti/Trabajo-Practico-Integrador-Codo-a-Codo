@@ -1,10 +1,10 @@
 // Seleccion de Elementos y Declaracion de variables
 let valorTicket = 200;
-let cantidadForm = document.getElementById('cantidad-form');
-let seleccionCategoria = document.getElementById('selector-categoria');
-let totalPagar = document.getElementById('total-pagar');
-let botonBorrar = document.getElementById('botonBorrar');
-let botonResumen = document.getElementById('botonResumen');
+const cantidadForm = document.getElementById('cantidad-form');
+const seleccionCategoria = document.getElementById('selector-categoria');
+const totalPagar = document.getElementById('total-pagar');
+const botonBorrar = document.getElementById('botonBorrar');
+const botonResumen = document.getElementById('botonResumen');
 
 // Funciones
 function valorTotalTicket () {
@@ -28,7 +28,6 @@ function editarTotalAPagar () {
         totalPagar.textContent = `Total a Pagar: ${valorTotalTicket()}`;
         valorTicket = 200;
     }
-
 }
 let borrarTotal = () => totalPagar.textContent = `Total a Pagar: ${0}`;
 
