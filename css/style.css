@@ -50,3 +50,16 @@ html {
 .contenedorFooter {
     background-color: #1E465F;
 }
+
+/* ================================ COMPRAR TICKETS =============================== */
+/** CAJAS TICKETS **/
+.documentacion {
+    font-size: .8rem;
+}
+
+/** TOTAL A PAGAR **/
+.totalPagar {
+    background-color: #CCE5FF;
+    border-color: #B8DAFF !important;
+    color: #426495;
+}
