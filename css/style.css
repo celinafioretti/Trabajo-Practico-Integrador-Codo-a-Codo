@@ -1,6 +1,15 @@
 html {
     font-family: Arial, Helvetica, sans-serif
 }
+/** NAVBAR **/
+@media screen and (max-width: 350px) {
+    #botonNavbar {
+        display: flex !important;
+        margin: auto !important;
+    }
+
+} 
+
 /** MASTER IMAGE **/
 .contenedorMaster {
     height: 80vh;
