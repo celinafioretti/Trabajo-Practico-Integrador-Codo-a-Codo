@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprar tickets</title>
-    <link rel="shortcut icon" href="/materialesPracticos/codoacodo.png">
+    <link rel="shortcut icon" href="materialesPracticos/codoacodo.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-dark"> <!--Faltaria fixed-top-->
             <!--Logo y Nombre-->
             <a href="index.html" class="navbar-brand text-white enlaceLogo ms-5">
-                <img class="confBsAs" src="/materialesPracticos/codoacodo.png" width="100" height="60" alt="Logo Codo a Codo"> Conf Bs As
+                <img class="confBsAs" src="materialesPracticos/codoacodo.png" width="100" height="60" alt="Logo Codo a Codo"> Conf Bs As
             </a>
             <!--Boton-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation  "> 
@@ -82,26 +82,26 @@
 
                         <div class="col-6 mb-2 mb-4">
                             <p class="mt-2 mb-1">Cantidad</p>
-                            <input type="text" class="form-control" placeholder="cantidad" aria-label="Second name">
+                            <input id="cantidad-form" type="text" class="form-control" placeholder="cantidad" aria-label="Second name">
                         </div>
                         <div class="col-6 mb-2" mb-4>
                             <p class="mt-2 mb-1">Categoria</p>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Estudiante</option>
-                                <option value="1">Trainee</option>
-                                <option value="2">Junior</option>
-                              </select>
+                            <select id="selector-categoria" class="form-select" aria-label="Default select example">
+                                <option value="Estudiante" selected>Estudiante</option>
+                                <option value="Trainee">Trainee</option>
+                                <option value="Junior">Junior</option>
+                            </select>
                         </div>
 
                         <div class="div col-12">
-                            <p class="border rounded totalPagar p-2 ps-3 fw-bold">Total a Pagar: $</p>
+                            <p class="border rounded totalPagar p-2 ps-3 fw-bold" id="total-pagar">Total a Pagar: </p>
                         </div>
 
                         <div class="col-6 d-grid">
-                            <button class="btn btn-primary botonEnviar fw-bold" type="submit">Borrar</button>
+                            <button id="botonBorrar" class="btn btn-primary botonEnviar fw-bold" type="submit">Borrar</button>
                         </div>
                         <div class="col-6 d-grid">
-                            <button class="btn btn-primary botonEnviar fw-bold" type="submit">Resumen</button>
+                            <button id="botonResumen" class="btn btn-primary botonEnviar fw-bold" type="submit">Resumen</button>
                         </div>
                     </div>
                 </div>
